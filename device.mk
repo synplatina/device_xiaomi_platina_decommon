@@ -547,7 +547,15 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     WfdCommon
 
+<<<<<<< HEAD
 # Device-specific settings
+=======
+# XiaomiParts
+PRODUCT_PACKAGES += \
+    XiaomiParts	
+
+# RetroMusic
+>>>>>>> 9ca6a9cd... Lavender:Import Xiaomi Parts
 PRODUCT_PACKAGES += \
     XiaomiParts
 
