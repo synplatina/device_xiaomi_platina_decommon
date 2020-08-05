@@ -413,6 +413,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     KimciRecorder
 
+# Recorder
+PRODUCT_PACKAGES += \
+    KimciRecorder
+
 # QMI
 PRODUCT_PACKAGES += \
     libjson
