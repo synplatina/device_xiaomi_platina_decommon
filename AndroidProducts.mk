@@ -22,9 +22,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_platina.mk
+    $(LOCAL_DIR)/rr_platina.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_platina-eng \
-    aosp_platina-userdebug \
-    aosp_platina-user
+    rr_platina-eng \
+    rr_platina-userdebug \
+    rr_platina-user
