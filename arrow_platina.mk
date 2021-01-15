@@ -46,6 +46,7 @@ TARGET_VENDOR_DEVICE_NAME := platina
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # Device identifier
+DEVICE_MAINTAINER := Himawari
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_NAME := arrow_platina
