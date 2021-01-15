@@ -473,6 +473,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(DEVICE_PATH) \
     hardware/google/pixel
+PRODUCT_BOARD_PLATFORM := sdm660
 
 # Tetheroffload
 PRODUCT_PACKAGES += \
