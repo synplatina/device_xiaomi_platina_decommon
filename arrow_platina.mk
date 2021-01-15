@@ -28,11 +28,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/xiaomi/platina/device.mk)
+$(call inherit-product-if-exists, vendor/xiaomi/MiuiCamera/config.mk)
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/arrow/config/common.mk)
 
-# Inherit AOSP product configuration
+# Inherit Lineage product configuration
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
 IS_PHONE := true
