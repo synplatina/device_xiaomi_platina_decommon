@@ -28,6 +28,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/xiaomi/platina/device.mk)
+$(call inherit-product, vendor/xiaomi/MiuiCamera/config.mk)
 $(call inherit-product-if-exists, vendor/xiaomi/MiuiCamera/config.mk)
 
 # Inherit some common Lineage stuff.
