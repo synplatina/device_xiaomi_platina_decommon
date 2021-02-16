@@ -29,8 +29,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 # Inherit device configuration
 $(call inherit-product, device/xiaomi/platina/device.mk)
 
-# Inherit some common AOSP stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Inherit some common NusantaraROM stuff.
+$(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
+$(call inherit-product, packages/apps/NusantaraParts/nadproject.mk)
 
 # Inherit AOSP product configuration
 TARGET_BOOT_ANIMATION_RES := 1080
@@ -41,6 +42,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="platina" \
     TARGET_DEVICE="platina"
 
+NAD_BUILD_TYPE := PREMIUM
+
 TARGET_VENDOR_PRODUCT_NAME := platina
 TARGET_VENDOR_DEVICE_NAME := platina
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
@@ -48,6 +51,6 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 # Device identifier
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_NAME := aosp_platina
+PRODUCT_NAME := nad_platina
 PRODUCT_DEVICE := platina
 PRODUCT_MODEL := MI 8 Lite
