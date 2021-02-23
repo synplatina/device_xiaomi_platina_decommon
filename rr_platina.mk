@@ -53,3 +53,10 @@ PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_NAME := rr_platina
 PRODUCT_DEVICE := platina
 PRODUCT_MODEL := MI 8 Lite
+
+# RR Stuffs
+TARGET_FACE_UNLOCK_SUPPORTED := true
+RR_BUILDTYPE := Experiment
+
+# RR Wallpapers
+BUILD_RR_WALLPAPERS := true
