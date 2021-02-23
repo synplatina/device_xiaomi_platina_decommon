@@ -413,10 +413,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     KimciRecorder
 
-# Recorder
-PRODUCT_PACKAGES += \
-    KimciRecorder
-
 # QMI
 PRODUCT_PACKAGES += \
     libjson
@@ -546,18 +542,6 @@ PRODUCT_PACKAGES += \
 # WiFi Display JAR
 PRODUCT_BOOT_JARS += \
     WfdCommon
-
-<<<<<<< HEAD
-# Device-specific settings
-=======
-# XiaomiParts
-PRODUCT_PACKAGES += \
-    XiaomiParts	
-
-# RetroMusic
->>>>>>> 9ca6a9cd... Lavender:Import Xiaomi Parts
-PRODUCT_PACKAGES += \
-    XiaomiParts
 
 # Vendor files
 $(call inherit-product, vendor/xiaomi/platina/platina-vendor.mk)
